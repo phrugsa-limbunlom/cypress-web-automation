@@ -25,4 +25,4 @@
 
 ### Folder structure
 
-- [strucutre.md](Assignment/cypress/structure.md)
+- [strucutre.md](cypress/structure.md)
