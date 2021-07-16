@@ -13,11 +13,11 @@
 
 - run command `npx cypress run --browser chrome`
 
-  2.Run specific test
+2.Run specific test
 
 - run command `npx cypress run --browser chrome --spec "cypress/integration/[FOLDER_NAME]/[SPEC_NAME]"`
 
-  3.Run specific test from cypress dashboard
+3.Run specific test from cypress dashboard
 
 - run command `npx cypress run --browser chrome`
 - select the test
