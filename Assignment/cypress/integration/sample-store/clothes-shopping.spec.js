@@ -7,7 +7,7 @@ import address from "../../fixtures/address.json";
 
 describe("User buy clothes in sample store", () => {
   before("visit sample store", () => {
-    cy.visit("https://store.briklshop.com/en/salut-partners");
+    cy.visit("/salut-partners");
     cy.url().should("include", "salut-partners");
   });
 

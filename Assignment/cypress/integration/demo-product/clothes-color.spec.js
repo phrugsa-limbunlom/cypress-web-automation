@@ -4,7 +4,7 @@ describe("User try out the Studio Demo by changing clothes color", () => {
   before(
     "go to Sweatshirt page and choose Design Now to customize clothes",
     () => {
-      cy.visit("/");
+      cy.visit("/sweatshirtmen");
 
       cy.url().should("include", "sweatshirtmen");
 
