@@ -4,8 +4,8 @@
 
 ### Install prerequisite
 
-1. install node
-2. install cypress version 7.7.0
+1. install node `npm install`
+2. install cypress version 7.7.0 `npm install --save-dev cypress`
 
 ### How to run test
 
