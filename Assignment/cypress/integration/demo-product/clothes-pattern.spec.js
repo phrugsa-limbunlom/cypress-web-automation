@@ -53,7 +53,7 @@ describe("User try out the Studio Demo by changing clothes pattern", () => {
 
         design.selectPattern(2);
       }),
-      it("select pattern for COLORZONE-7 option", () => {
+      it("select pattern for COLORZONE-8 option", () => {
         design.selectColorZone("AOP", 7);
 
         design.selectPattern(2);
@@ -61,7 +61,7 @@ describe("User try out the Studio Demo by changing clothes pattern", () => {
       it("select pattern for COLORZONE-8 option", () => {
         design.selectColorZone("AOP", 1);
 
-        design.selectPattern(2);
+        design.selectPattern(1);
       }),
       it("click Done to save customized pattern", () => {
         design.saveDesign("AOP");

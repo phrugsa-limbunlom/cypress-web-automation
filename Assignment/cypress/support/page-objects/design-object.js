@@ -30,7 +30,9 @@ export class DesignPage {
     cy.get("[data-cy='studio-menu-content-tab-AOP']")
       .find("[data-cy='studio-aop-pattern-library']")
       .find(pattern)
-      .click({ force: true, wait: 3000 });
+      .click({ force: true });
+
+    cy.wait(3000);
   }
 
   selectColor(color) {
