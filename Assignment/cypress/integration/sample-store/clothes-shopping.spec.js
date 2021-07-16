@@ -51,11 +51,8 @@ describe("User buy clothes in sample store", () => {
       it("select Add to cart", () => {
         product.addToCart();
       }),
-      it("check sub-total price", () => {
-        cart.checkSubTotalPrice("Doug Zipper Jacket", "Esme Jacket");
-      }),
-      it("check total tax", () => {
-        cart.checkTotalPrice();
+      it("check amount price", () => {
+        cart.checkAmountPrice("Doug Zipper Jacket", "Esme Jacket");
       }),
       it("check shipping price", () => {
         cart.checkShippingPrice();
