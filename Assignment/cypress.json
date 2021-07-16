@@ -1,0 +1,7 @@
+{
+  "baseUrl": "https://store.briklshop.com/en/sweatshirtmen",
+  "experimentalSourceRewriting": true,
+  "ignoreTestFiles": "**/examples/*",
+  "pageLoadTimeout": 300000,
+  "chromeWebSecurity": false
+}
