@@ -1,0 +1,22 @@
+- __cypress__
+   - [README.md](README.md)
+   - __fixtures__
+     - [address.json](fixtures/address.json)
+   - __integration__
+     - __demo\-product__
+       - [clothes\-color.spec.js](integration/demo-product/clothes-color.spec.js)
+       - [clothes\-pattern.spec.js](integration/demo-product/clothes-pattern.spec.js)
+     - __sample\-store__
+       - [clothes\-shopping.spec.js](integration/sample-store/clothes-shopping.spec.js)
+   - __plugins__
+     - [index.js](plugins/index.js)
+   - __support__
+     - [commands.js](support/commands.js)
+     - [index.js](support/index.js)
+     - __page\-objects__
+       - [cart\-object.js](support/page-objects/cart-object.js)
+       - [checkout\-object.js](support/page-objects/checkout-object.js)
+       - [design\-object.js](support/page-objects/design-object.js)
+       - [product\-object.js](support/page-objects/product-object.js)
+       - [store\-object.js](support/page-objects/store-object.js)
+

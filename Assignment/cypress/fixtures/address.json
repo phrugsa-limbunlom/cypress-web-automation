@@ -1,0 +1,11 @@
+{
+  "id": 1,
+  "firstname": "Adam",
+  "lastname": "Ausley",
+  "email": "adam@example.com",
+  "phone": "97237792496",
+  "street": "2554 Whispering Pines Circle",
+  "zip": "75034",
+  "city": "Frisco",
+  "state": "Texas"
+}
