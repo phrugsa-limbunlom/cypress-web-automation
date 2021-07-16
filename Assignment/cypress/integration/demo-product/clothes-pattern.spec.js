@@ -53,7 +53,7 @@ describe("User try out the Studio Demo by changing clothes pattern", () => {
 
         design.selectPattern(2);
       }),
-      it("select pattern for COLORZONE-8 option", () => {
+      it("select pattern for COLORZONE-7 option", () => {
         design.selectColorZone("AOP", 7);
 
         design.selectPattern(2);
