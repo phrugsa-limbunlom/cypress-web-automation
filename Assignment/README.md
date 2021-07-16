@@ -19,7 +19,7 @@
 
 3.Run specific test from cypress dashboard
 
-- run command `npx cypress run --browser chrome`
+- run command `npx cypress open`
 - select the test
 - see how automate browser interact with UI
 
