@@ -19,7 +19,10 @@ export class ProductPage {
     cy.get("#field-" + index).select(option);
   }
   addToCart() {
-    cy.get("[data-cy='add-to-cart']").contains("Add to cart").click();
+    cy.get("[data-cy='add-to-cart']")
+      .contains("Add to cart")
+      .trigger("mouseover")
+      .click();
   }
 }
 export const product = new ProductPage();
