@@ -8,7 +8,7 @@ export class ProductPage {
   }
 
   selectQuantity() {
-    cy.get(".chakra-numberinput.css-ihcgt8").should("have.attr", "value", "1");
+    cy.get(".chakra-numberinput").should("have.attr", "value", "1");
   }
 
   selectSize(size) {
@@ -18,9 +18,13 @@ export class ProductPage {
   selectPersonalization(option, index) {
     cy.get("#field-" + index).select(option);
   }
+
   addToCart() {
     cy.get("[data-cy='add-to-cart']")
-      .contains("Add to cart")
+      .contains("Add to cart", {
+        timeout: 20000,
+      })
+      .should("be.visible")
       .trigger("mouseover")
       .click();
   }

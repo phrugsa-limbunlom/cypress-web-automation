@@ -1,7 +1,10 @@
 export class CartPage {
   selectContinueShopping() {
-    cy.get("[data-cy='continue-shopping']")
+    cy.get("[data-cy='continue-shopping']", {
+      timeout: 20000,
+    })
       .contains("Continue Shopping")
+      .should("be.visible")
       .click();
   }
   checkAmountPrice(item1, item2) {

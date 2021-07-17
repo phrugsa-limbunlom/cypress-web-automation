@@ -9,6 +9,9 @@ describe("User buy clothes in sample store", () => {
   before("visit sample store", () => {
     cy.visit("/salut-partners");
     cy.url().should("include", "salut-partners");
+    cy.window().then((win) => {
+      win.sessionStorage.clear();
+    });
   });
 
   describe("buy one Doug Zipper Jacket and one Esme Jacket", () => {
@@ -88,7 +91,7 @@ describe("User buy clothes in sample store", () => {
         checkout.inputField("city", address.city);
       }),
       it("input Country ", () => {
-        checkout.inputCountry("United State");
+        checkout.inputCountry(address.country);
       }),
       it("input State ", () => {
         checkout.inputField("province", address.state);

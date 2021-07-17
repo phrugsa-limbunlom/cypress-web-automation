@@ -1,9 +1,6 @@
 export class CheckoutPage {
   createNewAddress() {
-    cy.get(".chakra-accordion__item")
-      .find("button")
-      .contains("No address available")
-      .click({ force: true });
+    cy.get(".chakra-accordion__item").click({ froce: true });
 
     cy.get("[data-cy='create-new-address']")
       .contains("Create a new address")
