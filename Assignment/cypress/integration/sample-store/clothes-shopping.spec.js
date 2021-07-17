@@ -88,7 +88,7 @@ describe("User buy clothes in sample store", () => {
         checkout.inputField("city", address.city);
       }),
       it("input Country ", () => {
-        checkout.inputCountry();
+        checkout.inputCountry("United State");
       }),
       it("input State ", () => {
         checkout.inputField("province", address.state);

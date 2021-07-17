@@ -14,10 +14,13 @@ export class CheckoutPage {
     cy.get("[data-cy='address-field-" + field + "']").type(data);
   }
 
-  inputCountry() {
-    cy.get("input[name='Default country']").then(($el) => {
-      $el.val("US");
-    });
+  inputCountry(country) {
+    cy.get("input[name='Default country']")
+      .should("be.hidden")
+      .invoke("show")
+      .type(country, {
+        force: true,
+      });
   }
 
   saveAddress() {
