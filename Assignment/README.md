@@ -1,6 +1,8 @@
 # cypress-automation-assigment
 
-## CYPRESS AUTOMATION ASSIGNMENT
+## Clone git
+
+### git clone master https://github.com/Gift-eiei/cypress-automation-assigment.git
 
 ### Install prerequisite
 
