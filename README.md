@@ -11,6 +11,8 @@
 
 ### How to run test
 
+Go to **Assignment** directory
+
 1.Run all test
 
 - run command `npx cypress run --browser chrome`
