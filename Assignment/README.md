@@ -1,8 +1,8 @@
 # cypress-automation-assigment
 
-## Clone git
+## Clone git from master branch
 
-### git clone master https://github.com/Gift-eiei/cypress-automation-assigment.git
+### git clone -b master https://github.com/Gift-eiei/cypress-automation-assigment.git
 
 ### Install prerequisite
 
