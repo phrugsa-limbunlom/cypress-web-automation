@@ -1,5 +1,5 @@
 {
-  "baseUrl": "https://store.briklshop.com/en",
+  "baseUrl": "<url>",
   "experimentalSourceRewriting": true,
   "ignoreTestFiles": "**/examples/*",
   "pageLoadTimeout": 300000,

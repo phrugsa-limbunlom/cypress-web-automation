@@ -1,47 +1,58 @@
-# cypress-automation-assigment
+# Cypress Web Automation
 
-## Clone git from master branch
+## Getting Started
 
-### git clone -b master https://github.com/Gift-eiei/cypress-automation-assigment.git
+### Install Prerequisites
 
-### Install prerequisite
+1. Install Node.js dependencies:
+   ```bash
+   npm install
+   ```
+2. Install Cypress version 7.7.0:
+   ```bash
+   npm install --save-dev cypress
+   ```
 
-1. install node `npm install`
-2. install cypress version 7.7.0 `npm install --save-dev cypress`
+## Running Tests
 
-### How to run test
+Navigate to the **Assignment** directory to run the tests.
 
-Go to **Assignment** directory
+### Run All Tests
+Run the following command to execute all tests:
+```bash
+npx cypress run --browser chrome
+```
 
-1.Run all test
+### Run a Specific Test
+To run a specific test, use:
+```bash
+npx cypress run --browser chrome --spec "cypress/integration/[FOLDER_NAME]/[SPEC_NAME]"
+```
 
-- run command `npx cypress run --browser chrome`
+### Run Tests from Cypress Dashboard
+1. Open the Cypress dashboard:
+   ```bash
+   npx cypress open
+   ```
+2. Select the desired test.
+3. Observe how the automated browser interacts with the UI.
 
-2.Run specific test
+## Folder Structure
+The project folder structure is documented in [structure.md](/cypress/structure.md).
 
-- run command `npx cypress run --browser chrome --spec "cypress/integration/[FOLDER_NAME]/[SPEC_NAME]"`
+## Test cases
 
-3.Run specific test from cypress dashboard
+### 1. Visit the Demo Product
 
-- run command `npx cypress open`
-- select the test
-- see how automate browser interact with UI
+#### First Test Case
+**“User tries out the Studio Demo by changing clothes color.”**
+- Test file: [clothes-color.spec.js](cypress/integration/demo-product/clothes-color.spec.js)
 
-### Folder structure
+#### Second Test Case
+**“User tries out the Studio Demo by changing clothes pattern.”**
+Implement one additional automated test for a scenario of your choice from a quality perspective.
+- Test file: [clothes-pattern.spec.js](cypress/integration/demo-product/clothes-pattern.spec.js)
 
-- [strucutre.md](/cypress/structure.md)
-
-### Tasks
-
-1. Visit our Demo Product
-
-    - First Tes caset: Implement automation test in the scenario below **“User try out the Studio Demo by changing clothes color”**
-        
-        [clothes\-color.spec.js](cypress/integration/demo-product/clothes-color.spec.js)
-        
-    - Second Test case: Implement one automation test in any scenarios from your quality perspective
-       
-       [clothes\-pattern.spec.js](cypress/integration/demo-product/clothes-pattern.spec.js)
-        
-2. Visit Sample Store: Implement one automation test on any feature on Sample Store 
-   - [clothes\-shopping.spec.js](cypress/integration/sample-store/clothes-shopping.spec.js)
+### 2. Visit the Sample Store
+**“User tries out the Sample Store by purchasing clothes.”**
+- Test file: [clothes-shopping.spec.js](cypress/integration/sample-store/clothes-shopping.spec.js)
