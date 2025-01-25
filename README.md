@@ -1,4 +1,4 @@
-# Cypress Web Automation
+# cypress-web-automation
 
 ## Getting Started
 
