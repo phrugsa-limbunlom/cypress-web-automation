@@ -50,7 +50,6 @@ The project folder structure is documented in [structure.md](/src/structure.md).
 
 #### Second Test Case
 **“User tries out the Studio Demo by changing clothes pattern.”**
-Implement one additional automated test for a scenario of your choice from a quality perspective.
 - Test file: [clothes-pattern.spec.js](src/integration/demo-product/clothes-pattern.spec.js)
 
 ### 2. Visit the Sample Store
