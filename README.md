@@ -1,7 +1,5 @@
 # cypress-web-automation
 
-## Getting Started
-
 ### Install Prerequisites
 
 1. Install Node.js dependencies:
@@ -26,7 +24,7 @@ npx cypress run --browser chrome
 ### Run a Specific Test
 To run a specific test, use:
 ```bash
-npx cypress run --browser chrome --spec "cypress/integration/[FOLDER_NAME]/[SPEC_NAME]"
+npx cypress run --browser chrome --spec "src/integration/[FOLDER_NAME]/[SPEC_NAME]"
 ```
 
 ### Run Tests from Cypress Dashboard
