@@ -38,7 +38,7 @@ npx cypress run --browser chrome --spec "cypress/integration/[FOLDER_NAME]/[SPEC
 3. Observe how the automated browser interacts with the UI.
 
 ## Folder Structure
-The project folder structure is documented in [structure.md](/cypress/structure.md).
+The project folder structure is documented in [structure.md](/src/structure.md).
 
 ## Test cases
 
@@ -46,13 +46,13 @@ The project folder structure is documented in [structure.md](/cypress/structure.
 
 #### First Test Case
 **“User tries out the Studio Demo by changing clothes color.”**
-- Test file: [clothes-color.spec.js](cypress/integration/demo-product/clothes-color.spec.js)
+- Test file: [clothes-color.spec.js](src/integration/demo-product/clothes-color.spec.js)
 
 #### Second Test Case
 **“User tries out the Studio Demo by changing clothes pattern.”**
 Implement one additional automated test for a scenario of your choice from a quality perspective.
-- Test file: [clothes-pattern.spec.js](cypress/integration/demo-product/clothes-pattern.spec.js)
+- Test file: [clothes-pattern.spec.js](src/integration/demo-product/clothes-pattern.spec.js)
 
 ### 2. Visit the Sample Store
 **“User tries out the Sample Store by purchasing clothes.”**
-- Test file: [clothes-shopping.spec.js](cypress/integration/sample-store/clothes-shopping.spec.js)
+- Test file: [clothes-shopping.spec.js](src/integration/sample-store/clothes-shopping.spec.js)
